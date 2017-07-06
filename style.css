@@ -63,18 +63,31 @@
 }
 
 #footer {
-    display: table-footer-group;   
+    display: table-footer-group;  
+    background-color: #F2F2F2;
+    border-top-width: 1px;
+    border-top-style: ridge;
+    border-top-color: lightgray; 
 }
 
 #footer li{
-    display: inline-block
+    display: inline-block;
+    padding: 13px 20px;
+    font-family: Arial;
+    font-size: 10px;
 }
 
 #left_list {
     text-align: left;
     width: fit-content;
+    display: absolute;
+    padding-left: 5px; 
+    float: left;
 }
 
 #right_list {
     text-align: right;
+    display: absolute;
+    padding-right: 5px;
+    float: right;
 }
